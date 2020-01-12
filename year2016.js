@@ -9,6 +9,10 @@ function solution(a, b) {
 
 function year2016(a, b) {
     var dayOfTheWeek = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+    var s = '';
+    for (val of s) {
+    	console.log('test');
+    }
     if(a < 10) {
     	a = '0' + a;
     }
