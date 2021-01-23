@@ -1,9 +1,9 @@
-function solution(participant, completion){
+function solution(participant, completion) {
     participant.sort();
     completion.sort();
     var participantLen = participant.length;
-    for(var i=0; i<participantLen; i++){
-        if(participant[i] != completion[i]){
+    for(var i = 0; i < participantLen; i++) {
+        if(participant[i] != completion[i]) {
             return participant[i];
         }
     }
